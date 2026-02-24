@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Task 4</title>
+
+</head>
+
+<body>
+    <h1>Fill in your information</h1>
+    <fieldset>
+        <legend>Form</legend>
+        <form>
+            <label for="Fname">First name:</label>
+            <br>
+            <input type="text" id="Fname" required>
+            <br>
+            <label for="Lname">Last name:</label>
+            <br>
+            <input type="text" id="Lname" required>
+            <br>
+            <label for="email">Email:</label>
+            <br>
+            <input type="email" id="email" required>
+            <br>
+
+            <h4>Your Gender</h4>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male"> Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female"> Female</label>
+
+            <h4>Favourite Subjects</h4>
+            <input type="checkbox" id="C++" name="subjects" value="C++">
+            <label for="C++"> C++</label>
+            <input type="checkbox" id="Java" name="subjects" value="Java">
+            <label for="Java"> Java</label>
+            <input type="checkbox" id="C#" name="subjects" value="C#">
+            <label for="C#"> C#</label>
+            <input type="checkbox" id="PHP" name="subjects" value="PHP">
+            <label for="PHP"> PHP</label>
+            <input type="checkbox" id="SQL" name="subjects" value="SQL">
+            <label for="SQL"> SQL</label>
+
+            <H4>Your City</H4>
+            <label for="city">City:</label>
+            <select name="city" id="city">
+                <option value="Irbid">Irbid</option>
+                <option value="Amman">Amman</option>
+                <option value="Karak">Karak</option>
+                <option value="Aqaba">Aqaba</option>
+            </select>
+            <br><br>
+
+            <label for="image">Upload Image:</label>
+            <input type="file" id="image" name="image">
+
+            <br><br>
+
+            <label for="about">Write About Yourself:</label>
+            <br><br>
+            <textarea id="about" name="about" rows="4" cols="50" placeholder="Write Here"></textarea>
+
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+    </fieldset>
+
+    <br><br><br>
+    <hr>
+    <br><br><br>
+
+    <form>
+
+        <table>
+            <tr>
+                <td width="100"><label for="name">Name:</label></td>
+                <td><input type="text" id="name" required></td>
+            </tr>
+            <tr>
+                <td width="100"><label for="Address">Address:</label></td>
+                <td><input type="text" id="Address" required></td>
+            </tr>
+            <tr>
+                <td width="100"><label for="city">City:</label></td>
+                <td><input type="text" id="city" required></td>
+            </tr>
+            <tr>
+                <td width="100"><label for="state">State:</label></td>
+                <td><input type="text" id="state" required></td>
+            </tr>
+            <tr>
+                <td width="100"><label for="zip">Zip:</label></td>
+                <td><input type="text" id="zip" required></td>
+            </tr>
+            <tr>
+                <td width="100"><label for="magazine">Magazine:</label></td>
+                <td>
+                    <select name="magazine" id="magazine">
+                        <option value="Newsweek">Newsweek</option>
+                        <option value="Time">Time</option>
+                        <option value="Forbes">Forbes</option>
+                        <option value="National Geographic">National </option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td width="100"><label>Subscription:</label></td>
+                <td><input type="radio" id="1Year" name="subscription" value="1Year">
+                    <label for="1Year"> 1 Year</label>
+                    &nbsp;&nbsp;&nbsp;
+                    <input type="radio" id="2Years" name="subscription" value="2Years">
+                    <label for="2Years"> 2 Years</label>
+                </td>
+            </tr>
+        </table>
+        <input type="submit" value="Send Your Order">
+
+
+    </form>
+
+</body>
+
+</html>
